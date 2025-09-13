@@ -96,3 +96,9 @@ https://stackoverflow.com/questions/3748/storing-images-in-db-yea-or-nay
 # https://github.com/darbyluv2code/fullstack-angular-and-springboot/blob/master/bonus-content/ecommerce-project/01-display-category-name-in-product-list-grid/01-display-category-name-in-product-list-grid.md
 ng generate component components/search
 ng g c components/search
+
+ng add @angular/localize
+
+npm install @ng-bootstrap/ng-bootstrap@^18.0.0
+
+https://ng-bootstrap.github.io
