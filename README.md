@@ -102,3 +102,9 @@ ng add @angular/localize
 npm install @ng-bootstrap/ng-bootstrap@^18.0.0
 
 https://ng-bootstrap.github.io
+
+ng g c components/cart-status
+
+ng g class common/cart-item
+
+ng g s services/cart
