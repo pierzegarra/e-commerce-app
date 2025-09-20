@@ -108,3 +108,5 @@ ng g c components/cart-status
 ng g class common/cart-item
 
 ng g s services/cart
+
+ng g c components/cart-details
