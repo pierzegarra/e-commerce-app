@@ -61,7 +61,9 @@ export class CheckoutComponent implements OnInit {
                     console.log("Retrieve credit card months: " + JSON.stringify(data));
                     this.creditCardMonths = data;
                 },
-                error: (error: Error) => {},
+                error: (error: Error) => {
+                    console.log("Get Credit Card Months Error: " + error.message)
+                },
                 complete: () => {}
             }
         );
@@ -73,7 +75,9 @@ export class CheckoutComponent implements OnInit {
                 console.log("Retrieved credit card years: " + JSON.stringify(data));
                 this.creditCardYears = data;
             },
-            error: (error: Error) => {},
+            error: (error: Error) => {
+                console.log("Get Credit Card Years: " +  error.message);
+            },
             complete: () => {}
         })
     }
