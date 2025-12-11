@@ -112,3 +112,7 @@ ng g s services/cart
 ng g c components/cart-details
 
 ng g c components/checkout
+
+http://www.regextutorials.com/
+
+ng g class validators/Luv2ShopValidators
